@@ -1,10 +1,8 @@
-// IS PRIME
-function isPrime(num) {
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) return false;
-  }
-  return true;
-}
+/* CONTENTS (ctrl + f)
+Factorial
+Is Prime
+Random Between
+*/
 
 // FACTORIAL
 function factorial(num) {
@@ -18,3 +16,15 @@ function factorial(num) {
     return num;
 }
 
+// IS PRIME
+function isPrime(num) {
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+
+// RANDOM BETWEEN
+function randomBetween(min, max) {
+  return Math.floor (Math.random() * (max - min + 1) + min);
+}
