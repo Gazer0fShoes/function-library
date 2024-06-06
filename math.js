@@ -1,4 +1,6 @@
-/* CONTENTS (ctrl + f)
+/*
+CONTENTS (ctrl + f)
+
 Factorial
 Is Prime
 Random Between
